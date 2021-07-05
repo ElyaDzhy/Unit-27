@@ -1,0 +1,8 @@
+@import "_disabled/nav-list__link_disabled.css";
+@import "_active/nav-list__link_active.css";
+
+.nav-list__link {
+  display: block;
+  padding: 10px;
+  background-color: lightgoldenrodyellow;
+}

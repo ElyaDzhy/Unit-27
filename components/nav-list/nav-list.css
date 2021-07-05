@@ -1,0 +1,7 @@
+@import "__item/nav-list__item.css";
+@import "__link/nav-list__link.css";
+@import "_direction/nav-list_direction.css";
+
+.nav-list {
+  display: flex;
+}

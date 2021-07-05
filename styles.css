@@ -1,44 +1,8 @@
 @import "./assets/styles/reset.css";
+@import "./components/header/header.css";
+@import "./components/logo/logo.css";
+@import "./components/nav-list/nav-list.css";
 
 * {
   box-sizing: border-box;
-}
-
-.header {
-  display: flex;
-  padding: 20px;
-  justify-content: space-between;
-  border: 1px solid rosybrown;
-}
-
-.nav {
-}
-
-.nav-list {
-  display: flex;
-}
-
-.nav-list_orientation-vertical {
-  flex-direction: column;
-}
-
-.nav-list_orientation-horizontal {
-  flex-direction: row;
-}
-
-.nav-list__item {
-}
-
-.nav-list__link {
-  display: block;
-  padding: 10px;
-  background-color: lightgoldenrodyellow;
-}
-
-.nav-list__link_current {
-  border: 0.5px solid lightcoral;
-}
-
-.nav-list__link_disabled {
-  color: gray;
 }

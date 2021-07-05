@@ -1,0 +1,7 @@
+.nav-list_direction-vertical {
+  flex-direction: column;
+}
+
+.nav-list_direction-horizontal {
+  flex-direction: row;
+}
